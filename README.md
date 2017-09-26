@@ -1,4 +1,6 @@
 09/08/17
-This my submission of projects 1 & 2
+This is my submission of projects 1 & 2
 09/20/17
-This my submission of project 3 and 4
+This is my submission of project 3 and 4
+09/26/17
+This is my submission of project 5 and 6
