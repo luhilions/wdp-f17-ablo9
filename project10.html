@@ -18,7 +18,18 @@
       }
       .specialtext {
         font-weight: bold;
-        font-effect: underline;
+        text-decoration: underline;
+      }
+      .picture {
+        width: 310px;
+        height: 200px;
+        border: 6px inset wheat;
+      }
+      #main {
+        border: 1px solid blue;
+        color: lightblue;
+        padding: 10 px;
+        
       }
     </style> 
   </head>
@@ -26,9 +37,11 @@
   <body>
     <!--  Page content goes here -->
     <!--  Ok!!!!!!!!!!!!!!!!!!!! -->
-    <img src="images/pug.jpg" alt="Pug" height="321" width="518"/>
+    <div id="main">
+      <div class="picture"><img src="images/pug.jpg" alt="Pug" height="321" width="518"/></div>
     <div id="text"><p><span class="special text">The Pug</span> is a gorgeous animal that is a dog. They are prone to obesity. Pugs have a big personality, and they are strong-willed. They were origianlly bred in China for royalty.</p></div>
     <a href="project2.html" target="_blank">Back to home page</a>
+    </div>
   </body>
 
 </html>
