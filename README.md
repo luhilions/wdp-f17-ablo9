@@ -6,3 +6,5 @@ This is my submission of project 3 and 4
 This is my submission of project 5 and 6
 10/17/17 
 This is my submission of projects 10 and 11
+10/27/17
+This is my submission of projects 12 and 13
