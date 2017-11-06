@@ -38,11 +38,24 @@ body{
       .clearfloat {
         clear: both;
       }
-      a:link { color:blue; }
-      a:visited { color:purple; }
+      a:link { 
+        color: blue;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      a:visited { 
+        color:purple;
+        font-weight: bold;
+        text-decoration: none;
+      }
       a:hover { 
         color:black;
+        font-weight: bold;
         text-decoration: none;
       }
       /*This takes away the underline when I hover over my text.*/
-      a:active { color:pink; }
+      a:active { 
+        color: navy; 
+        font-weight: bold;
+        text-decoration: none;
+      }
