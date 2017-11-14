@@ -37,3 +37,8 @@ top: 40px;
 left: 110px;
 z-index: 5;
 } 
+.gradient {
+background-image: url('../img/gradient.jpg');
+background-repeat: repeat-x;
+background-color: gray;
+}
