@@ -5,36 +5,58 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Web Forms</title>
+    <style>
+      .feedback {
+        width: 500px;
+        background-color: #F2F5F7;
+        padding: 2px;
+        font-family: Tahoma;
+        border: 1px;
+      }
+      .textlabels {
+        width: 100px;
+        padding: 2px;
+      }
+      input {
+        text-align: right;
+        padding: 2px;
+      }
+      .button {
+        text-align: center;
+        padding: 1px;
+      }
+        
+    </style>
   </head>
 
   <body>
     <!--  Page content goes here -->
-    <form method="post"class="feedback">
+    <form method="post" class="feedback">
       <fieldset>
         <legend>Give Us Your Feedback</legend> 
-      Full Name: <input type="text" size="30" name="fullname" value="Type Full Name Here"/> <br/>
-      Year: <br/>
+        <span class="textlabels">Full Name:</span> <input type="text" size="30" name="fullname" value="Type Full Name Here"/> <br/>
+        <span class="textlabels">Year:</span><br/>
       <input type="radio" name="year" value="Freshman"/>Freshman<br/>
       <input type="radio" name="year" value="Sophomore"/>Sophmore<br/>
       <input type="radio" name="year" value="Junior"/>Junior<br/>
       <input type="radio" name="year" value="Senior"/>Senior<br/>
-      Activities: <br/>
+      <span class="textlabels">Activities:</span> <br/>
       <input type="checkbox" name="Activities" value="sports"/>Sports<br/>
       <input type="checkbox" name="Activities" value="music"/>Music<br/>
       <input type="checkbox" name="Activities" value="theater"/>Theater<br/>
       <input type="checkbox" name="Activities" value="other"/>Other<br/>
-      Quarter:
+        <span class="textlabels">Quarter:</span> <br/>
       <select name="Quarter">
         <option value="Fall" select="selected">Fall</option>
         <option value="Winter">Winter</option>
         <option value="Spring">Spring</option>
         <option value="Summer">Summer</option>
       </select><br/>
-      Comments: <br/>
+        <span class="textlabels">Comments:</span> <br/>
       <textarea name="comments" rows="4" cols="30">
         Type here
       </textarea> 
-      <input type="submit" value="Click Here to Submit"/>
+        <span class="button"><input type="submit" value="Click Here to Submit"/></span>
       </fieldset>
     </form>
   </body>
